@@ -1,0 +1,116 @@
+from menusheet.png
+sprt menu_bg.frm	red_button10		150:100	650:380	box 9
+text menu_text1.frm	default			360:120 -Menu
+sprt menu_slot_bg.frm	transparent		200:160	589:190
+sprt menu_slot_bk.frm	blue_sliderLeft		350:160	389:190
+sprt menu_slot_nt.frm	blue_sliderRight	550:160	589:190
+text menu_slot_desc.frm	default			200:170 -Save slot
+text menu_slot_opt.frm	default			400:170 -
+sprt menu_save_bg.frm	transparent		200:200	589:230
+sprt menu_save_arr.frm	blue_sliderRight	550:200	589:230
+text menu_save_text.frm	default			200:210 -Save state
+sprt menu_load_bg.frm	transparent		200:240	589:270
+sprt menu_load_arr.frm	blue_sliderRight	550:240	589:270
+text menu_load_text.frm	default			200:250 -Load state
+sprt menu_vid_bg.frm	transparent		200:280	589:310
+sprt menu_vid_arr.frm	blue_sliderRight	550:280	589:310
+text menu_vid_text.frm	default			200:290 -Video Options
+sprt menu_ok_bt.frm	green_button00		300:330	380:360
+sprt menu_ok_ico.frm	hints_bt_a		305:335	325:355
+text menu_ok_text.frm	default			330:340 -Ok
+sprt menu_qt_bt.frm	red_button00		420:330	500:360
+sprt menu_qt_ico.frm	hints_bt_x		425:335	445:355
+text menu_qt_text.frm	default			450:340 -Quit
+sprt menu_cur_bg.frm	transparent		500:500	520:520
+sprt menu_cur_lt.frm	yellow_sliderRight	500:500	518:513
+sprt menu_cur_rt.frm	yellow_sliderLeft	500:500	518:513
+
+
+sprt cfgs_bg.frm	green_button13		150:100	650:380	box 9
+text cfgs_text1.frm	default			300:120 -Select Options
+sprt cfgs_fltr_bg.frm	transparent		200:160	589:190
+sprt cfgs_fltr_cell.frm	grey_button09		350:160	589:190 box 8
+text cfgs_fltr_desc.frm default			200:170 -Name
+text cfgs_fltr_opt.frm	default			360:170 -
+sprt cfgs_genre_bg.frm	transparent		200:210	589:240
+sprt cfgs_genre_bk.frm	blue_sliderLeft		350:210	389:240
+sprt cfgs_genre_nt.frm	blue_sliderRight	550:210	589:240
+text cfgs_genre_desc.frm default		200:220 -Genre
+text cfgs_genre_opt.frm	default			400:220 -
+sprt cfgs_sort_bg.frm	transparent		200:260	589:290
+sprt cfgs_sort_bk.frm	blue_sliderLeft		350:260	389:290
+sprt cfgs_sort_nt.frm	blue_sliderRight	550:260	589:290
+text cfgs_sort_desc.frm default			200:270 -Sort by
+text cfgs_sort_opt.frm	default			400:270 -
+sprt cfgs_ok_bt.frm	green_button00		300:330	380:360
+sprt cfgs_ok_ico.frm	hints_bt_a		305:335	325:355
+text cfgs_ok_text.frm	default			330:340 -Ok
+sprt cfgs_cl_bt.frm	red_button00		420:330	500:360
+sprt cfgs_cl_ico.frm	hints_bt_x		425:335	445:355
+text cfgs_cl_text.frm	default			450:340 -Cancel
+sprt cfgs_cur_bg.frm	transparent		500:500	520:520
+sprt cfgs_cur_lt.frm	yellow_sliderRight	500:500	518:513
+sprt cfgs_cur_rt.frm	yellow_sliderLeft	500:500	518:513
+
+
+sprt cfgv_bg.frm	green_button13		150:100	650:380	box 9
+text cfgv_text1.frm	default			300:120 -Video Options
+sprt cfgv_cpu_bg.frm	transparent		200:160	589:190
+sprt cfgv_cpu_bk.frm	blue_sliderLeft		350:160	389:190
+sprt cfgv_cpu_nt.frm	blue_sliderRight	550:160	589:190
+text cfgv_cpu_desc.frm	default			200:170 -CPU filter
+text cfgv_cpu_opt.frm	default			400:170 -
+sprt cfgv_gpu_bg.frm	transparent		200:210	589:240
+sprt cfgv_gpu_bk.frm	blue_sliderLeft		350:210	389:240
+sprt cfgv_gpu_nt.frm	blue_sliderRight	550:210	589:240
+text cfgv_gpu_desc.frm	default			200:220 -GPU filter
+text cfgv_gpu_opt.frm	default			400:220 -
+sprt cfgv_disp_bg.frm	transparent		200:260	589:290
+sprt cfgv_disp_bk.frm	blue_sliderLeft		350:260	389:290
+sprt cfgv_disp_nt.frm	blue_sliderRight	550:260	589:290
+text cfgv_disp_desc.frm	default			200:270 -Display
+text cfgv_disp_opt.frm	default			400:270 -
+sprt cfgv_ok_bt.frm	green_button00		300:330	380:360
+sprt cfgv_ok_ico.frm	hints_bt_a		305:335	325:355
+text cfgv_ok_text.frm	default			330:340 -Ok
+sprt cfgv_cl_bt.frm	red_button00		420:330	500:360
+sprt cfgv_cl_ico.frm	hints_bt_x		425:335	445:355
+text cfgv_cl_text.frm	default			450:340 -Cancel
+sprt cfgv_cur_bg.frm	transparent		500:500	520:520
+sprt cfgv_cur_lt.frm	yellow_sliderRight	500:500	518:513
+sprt cfgv_cur_rt.frm	yellow_sliderLeft	500:500	518:513
+
+
+sprt simple_bg.frm	green_button13		 40:40	760:440	box 9
+sprt simple_sel_bg.frm	transparent		 50:50	390:430
+sprt simple_sel_sol.frm	red_button09		 35:50	 48:430
+sprt simple_sel_opt.frm	grey_button00		 50:50	390:86  box 9
+sprt simple_sel_alt.frm	yellow_button00		 50:50	390:86  box 9
+text simple_sel_txt.frm	default			 65:60	-
+sprt simple_tbx_bg.frm	transparent		400:290	750:420
+sprt simple_sct_bg.frm	transparent		437:50	713:290
+
+
+sprt dirc_bg.frm	green_button13		 40:40	760:440	box 9
+text dirc_text1.frm	default			620:70 -Choose
+text dirc_text2.frm	default			650:95 -Dir
+sprt dirc_dir_bg.frm	transparent		 50:50	590:430
+sprt dirc_dir_sol.frm	red_button09		 35:50	 48:430
+sprt dirc_dir_opt.frm	grey_button00		 50:50	590:86  box 9
+sprt dirc_dir_alt.frm	yellow_button00		 50:50	590:86  box 9
+text dirc_dir_txt.frm	default			 65:60	-
+sprt dirc_ok_bt.frm	green_button00		620:380	720:410
+text dirc_ok_text.frm	default			660:390 -Ok
+sprt dirc_cur_bg.frm	transparent		500:500	520:520
+sprt dirc_cur_lt.frm	transparent		500:500	518:513
+sprt dirc_cur_rt.frm	red_sliderLeft		500:500	518:513
+
+
+sprt load_bg.frm	green_button13		 40:200	760:330	box 9
+text load_text1.frm	default			320:220 -Scanning
+sprt load_pct_bg.frm	red_button02		110:250	689:270 box 8
+sprt load_pct_top.frm	blue_button00		110:250	689:270
+text load_pct_pct.frm	default			400:254 -
+text load_status1.frm	default			110:280 -files
+text load_status2.frm	default			310:280 -roms
+text load_status3.frm	default			510:280 -games
